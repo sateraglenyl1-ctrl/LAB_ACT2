@@ -14,4 +14,4 @@ public class Vehicle {
       return calculateAge() > 25;
    }   
 }
-   
+   // IT-OOPROG21 Vehicle class activity

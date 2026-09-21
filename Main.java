@@ -33,4 +33,4 @@ public class Main {
    System.out.println("Is this vehicle considered vintage? " + v3.isVintage() + "\n");
   
 }
-}
+}// IT-OOPROG21 Main class activity
