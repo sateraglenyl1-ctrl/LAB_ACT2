@@ -7,12 +7,12 @@ public class Main {
    v1.model = "Mustang";
    v1.year = 1965;
    
-   vehicle v2 = new vehicle();
+   Vehicle v2 = new Vehicle();
    v2.brand = "Toyota";
    v2.model = "Corolla";
    v2.year = 1998;
    
-   vehicle v3 = new vehicle();
+   Vehicle v3 = new Vehicle();
    v3.brand = "Porsche";
    v3.model = "911 Carrera";
    v3.year = 2025;
