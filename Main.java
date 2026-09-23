@@ -2,7 +2,7 @@ public class Main {
 
    public static void main(String[] args) {
    
-   vehicle v1 = new vehicle();
+   Vehicle v1 = new Vehicle();
    v1.brand = "Ford";
    v1.model = "Mustang";
    v1.year = 1965;
