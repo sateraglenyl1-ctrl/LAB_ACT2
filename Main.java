@@ -2,20 +2,9 @@ public class Main {
 
    public static void main(String[] args) {
    
-   Vehicle v1 = new Vehicle();
-   v1.brand = "Ford";
-   v1.model = "Mustang";
-   v1.year = 1965;
-   
-   Vehicle v2 = new Vehicle();
-   v2.brand = "Toyota";
-   v2.model = "Corolla";
-   v2.year = 1998;
-   
-   Vehicle v3 = new Vehicle();
-   v3.brand = "Porsche";
-   v3.model = "911 Carrera";
-   v3.year = 2025;
+   Vehicle v1 = new Vehicle("Ford", "Mustang", 1965);
+   Vehicle v2 = new Vehicle("Toyota", "Corolla", 1998);
+   Vehicle v3 = new Vehicle("Porsche", "911 Carrera", 2025);
    
    System.out.println("Vehicle 1: ");
    v1.displayInfo();
@@ -33,4 +22,4 @@ public class Main {
    System.out.println("Is this vehicle considered vintage? " + v3.isVintage() + "\n");
   
 }
-}// IT-OOPROG21 Main class activity
+}
